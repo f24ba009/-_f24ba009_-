@@ -4,7 +4,7 @@
 画面表示：ウィジェットで構成されている。入れ子できる。  
 実行："Run"をクリックすると実行される。main関数から実行される。  
 StatelessWidget：ステートを持たない。ウィジェットのベースとなるクラス。クラス作るときはいったんこれを継承するっぽい。"class クラス名 extends StatelessWidget{なんやかんや}"  
-MaterialApp：引数にいろいろ指定できる。"return MaterialApp(title:タイトル,home:ホーム);"  
+MaterialApp：引数にいろいろ指定できるクラス。"return MaterialApp(title:タイトル,home:ホーム);"  
 <br>
 授業内で使用したコード↓  
 import 'package:flutter/material.dart';  
